@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <main>
+        <div class="login-box">
+            <div class="loginpage">
+                <h2>Sign Up</h2>
+                <input id="regname" required type="text" placeholder="Enter Full Name : "> <br>
+                <input id="regmob" required type="number" placeholder="Enter Mobile No : "> <br>
+                <input id="regemail" required type="email" placeholder="Enter Email Id : "> <br>
+                <input id="regpass" required type="password" placeholder="Enter Password"><br>
+                <button onclick="register()">Sign Up</button>
+            </div>
+            <p>Already have an account! <a href="#"  onclick="signup()">Sign in</a></p>
+        </div>
+    </main>
+ 
+    <script src="app.js"></script>
+</body>
+</html>
